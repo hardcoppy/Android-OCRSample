@@ -10,17 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="org.komamitsu.android_ocrsample.MainActivity">
 
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/choose_from_gallery"
-        android:id="@+id/choose_from_gallery"
-        tools:context=".MainActivity"
-        android:layout_marginTop="23dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,7 +17,7 @@
         android:id="@+id/take_a_photo"
         tools:context=".MainActivity"
         android:layout_marginTop="11dp"
-        android:layout_below="@+id/choose_from_gallery"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
 
